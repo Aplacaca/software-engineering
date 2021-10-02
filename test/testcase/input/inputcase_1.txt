@@ -1,0 +1,8 @@
+preset user A
+preset map 1 A 1
+preset fund A 10
+preset credit A 10
+preset gift A bomb 10
+preset bomb 10
+preset barrier 10
+preset userloc A 10 2
