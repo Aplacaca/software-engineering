@@ -1,14 +1,18 @@
 
 def red(pattern: str):
-    return '\033[31m {}'.format(pattern)
+    return '\033[1;31m{}'.format(pattern)
 
 
 def blue(pattern: str):
-    return '\033[34m {}'.format(pattern)
+    return '\033[1;34m{}'.format(pattern)
 
 
 def green(pattern: str):
-    return '\33[32m {}'.format(pattern)
+    return '\33[1;32m{}'.format(pattern)
+
+
+def black(pattern: str):
+    return '\33[0m{}'.format(pattern)
 
 
 def do_help():
@@ -24,3 +28,6 @@ def do_help():
               "\thelp          —— 显示此帮助\n"
     print(message)
 
+
+def do_init():
+    ...
